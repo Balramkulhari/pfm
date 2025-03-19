@@ -1,0 +1,15 @@
+[package]
+name = "pfm"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0xb49a6db5ce98af811452fc7a459e51e028d40a4286f69b34ce09a12e82349fea"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
